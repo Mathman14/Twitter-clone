@@ -1,0 +1,554 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container  {
+    display:grid;
+    grid-template-columns:repeat(15,1fr);
+    grid-template-rows: repeat(16,minmax(100px,auto));
+    
+}
+
+
+.rightside  {
+    grid-column: 1/5;
+    grid-row: 1/10;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    left:11rem;
+    gap: 10px; 
+    
+
+    
+    
+}
+.upside  {
+    grid-column: 5/11;
+    grid-row: 1/3;
+    border: 1px solid rgba(0,0,0,0.1);
+    
+}
+.middleside  {
+    grid-column: 5/11;
+    grid-row: 3/13;
+    
+
+}
+.leftside  {
+    grid-column: 11/15;
+    grid-row: 1/10;
+    
+}
+
+.twitterlog .fa-brands  {
+    color: blueviolet;
+    margin-top: 10px;
+    padding-right: 30px;
+
+}
+.combinekey div a  {
+    text-decoration: none;
+    color: black;
+    
+    
+    
+}
+.combinekey div  {
+    padding: 20px 0;
+    
+    
+    
+    
+}
+
+div i  {
+    width: 60px;
+    
+    
+}
+
+
+div span  {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tweetright  {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 30px;
+    background-color:rgb(191, 156, 223);
+    position: relative;
+    left: -10px;
+    top: -5px;
+    color: white;
+    border: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.username  {
+    display: flex;
+    position: relative;
+    top: 6rem;
+    gap: 10px;
+    left: -30px;
+    width: 20rem;
+    height: 5rem;
+    padding: 15px 0 0 15px;
+    border-radius: 5rem;
+    
+}
+.username:hover  {
+    background-color: cyan;
+}
+.username .imageuser img  {
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+.username #wideuser  {
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.username .wideuser2 a  {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+.boldelipse  {
+    position: relative;
+    top: -34px;
+    left: 13rem;
+    font-size: 50px;
+}
+.upside .upsidehome  {
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.upside .upsideimg  {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.upsideimg .imgup img  {
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    
+}
+.upsideimg .formup textarea  {
+    border: none;
+}
+.upsideimg .formup textarea::placeholder  {
+    position: relative;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: black;
+    
+}
+.upfontandtweet  {
+    position: relative;
+    display: flex;
+    gap: 13rem;
+    margin-top: 2rem;
+    
+}
+
+.upfontandtweet .upfont  {
+    
+    margin-left: 85px;
+    display:flex;
+    justify-content: start;
+    
+}
+.upfontandtweet .upfont .fa:hover  {
+    cursor: pointer;
+    color: blueviolet;
+    
+    border: 1px solid black;
+}
+.bold1  {
+    color: blueviolet;
+    
+}
+.bold1:hover  {
+    cursor: pointer;
+}
+.bold2  {
+    position: relative;
+    left: -30px;
+    color: blueviolet;
+    
+}
+.bold3  {
+    position: relative;
+    left: -60px;
+    color:blueviolet;
+}
+.bold4  {
+    position: relative;
+    left: -90px;
+    color:blueviolet;
+}
+.bold5  {
+    position: relative;
+    left: -120px;
+    color:blueviolet;
+
+}
+.bold6  {
+    position: relative;
+    left: -150px;
+    color:blueviolet;
+}
+
+
+.upfontandtweet .uptweet button  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: rgb(191, 156, 223);
+    color: white;
+    border: white;
+    position: relative;
+    top: -15px;
+    left: 13rem;
+
+} 
+.upfontandtweet .uptweet button:hover  {
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middleside  {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(21,minmax(40px,auto));
+}
+.middleside .middleA  {
+    grid-column:1/10 ;
+    grid-row: 1/2;
+    
+}
+.middleside .middleA:hover  {
+    background-color:rgb(230, 228, 226) ;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+.middleside .middleB  {
+    grid-column: 1/10;
+    grid-row: 2/5;
+    border:none;
+}
+.middleside .middleB:hover {
+    background-color: rgb(230, 228, 226);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.middleside .middleC  {
+    grid-column: 1/10;
+    grid-row: 5/8;
+    border:none;
+}
+.middleside .middleC:hover {
+    background-color: rgb(230, 228, 226);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.middleside .middleD  {
+    grid-column: 1/10;
+    grid-row: 8/11;
+    border: none;
+}
+.middleside .middleD:hover {
+    background-color: rgb(230, 228, 226);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.middleside .middleE  {
+    grid-column:1/10 ;
+    grid-row: 11/14;
+    border: none;
+}
+.middleside .middleE:hover {
+    background-color: rgb(230, 228, 226);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.middleside .middleF  {
+    grid-column:1/10 ;
+    grid-row: 14/17;
+    border: none;
+}
+.middleside .middleF:hover {
+    background-color: rgb(230, 228, 226);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.showtweet a  {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+    font-family:monospace;
+    color:rgb(191, 156, 223);
+    text-align: center;
+    
+}
+.middleB .middlehandle  {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.middlehandle .handleimage img  {
+    border:none;
+        width: 60px;
+        height: 60px;
+        border-radius: 40px;
+        
+}
+.middleelipse  {
+    margin-left:28rem;
+}
+.userhandle  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.userhandle .handlename  {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+}
+.userhandle .userhandlename  {
+    color: rgba(0, 0, 0, 0.2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.userhandle .pointhandle  {
+    margin-top: -16px;
+    font-size: 30px;
+    opacity: 0.5;
+    
+}
+.phrasehandle p  {
+    width: 40rem;
+    margin-top: -20px;
+    margin-left: 70px;
+    position: relative;
+    left: 10px;
+    
+}
+.reactionhandle  {
+    display: flex;
+    gap: 8rem;
+    margin-left: 70px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+}
+.reactionhandle .fa .phrasememe  {
+    font-size: 12px;
+    margin-left: 3px;
+    opacity: 0.6;
+}
+.reactionhandle .fa .phrasememe:hover  {
+    cursor: pointer;
+}
+        
+    
+.middleC .middlehandle {
+display: flex;
+margin-top: 10px;
+margin-left: 10px;
+}   
+.middlehandle .handleimage img {
+    border: 1px solid black;
+    widh: 50px;
+    border-radius: 50px;
+    
+}
+.middleelipse {
+    margin-left: 28rem;
+}
+    
+.userhandle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.userhandle .handlename {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.userhandle .userhandlename {
+    color: rgba(0, 0, 0, 0.2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+.userhandle .pointhandle {
+    margin-top: -16px;
+    font-size: 30px;
+    opacity: 0.5;
+    
+}
+    
+.phrasehandle p {
+    width: 40rem;
+    margin-top: -20px;
+    margin-left: 70px;
+    
+}
+    
+.reactionhandle {
+    display: flex;
+    gap: 8rem;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+    
+.reactionhandle .fa .phrasememe {
+    font-size: 12px;
+     margin-left: 3px;
+    opacity: 0.6;
+}
+.middleD .middlehandle {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.middleE .middlehandle {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.middleF .middlehandle {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.leftside .searchbar  {
+    display: flex;
+    position: relative;
+
+    left: 3rem;
+}
+.searchbar input  {
+    width: 30rem;
+    height: 60px;
+    margin: 10px 10px;
+    border-radius: 30px;
+    text-indent: 95px;
+    background-color: rgb(230, 228, 226);
+}
+.searchbar input::placeholder  {
+    
+    padding-top: 10px;
+    font-size: 23px;
+    position: absolute;
+    top: 7px;
+    left: -5px;
+    
+}
+.searchbar .fa-search  {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 25px;
+    opacity: 0.4;
+    color: rgb(191, 156, 223);
+}
+.trend  {
+    height: 50rem;
+    width: 30rem;
+    border: 1px solid;
+    position: relative;
+    top: 30px;
+    left: 4rem;
+    border-radius: 15px;
+    background-color: rgb(230, 228, 226);
+    border: none;
+} 
+h1  {
+    margin: 20px;
+    font-family:sans-serif;
+    font-weight: bolder;
+}
+.trend .trendclass  {
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    padding: 10px;
+    padding-top: 25px ;
+   
+
+    font-family: sans-serif;
+    position: relative;
+}
+.trend .trendclass:hover  {
+    border:none;
+    background-color: cadetblue;
+    border-left: none;
+    
+    cursor: pointer;
+    border-right: none;
+    box-shadow: 15px;
+    
+}
+.trend1  {
+    position: absolute;
+    top: 16px;
+    font-size: 18px;
+    opacity: 0.6;
+
+}
+.trend2  {
+    position: absolute;
+    top: 39px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.trend3  {
+    position: absolute;
+    top: 70px;
+    font-size:18px ;
+    opacity: 0.6;
+}
+
+
+
+
